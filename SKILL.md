@@ -1,6 +1,6 @@
 ---
 name: humanizer
-version: 2.1.1
+version: 2.2.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
@@ -386,6 +386,20 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 
 **After:**
 > The company plans to open two more locations next year.
+
+---
+
+## PUNCTUATION PATTERNS
+
+### 25. Primary Single Quotes (Code-Style Quotation)
+
+**Problem:** AI models trained on code often use single quotes as primary delimiters.
+
+**Before:**
+> stated, 'This is a pattern.'
+
+**After:**
+> stated, "This is a pattern."
 
 ---
 

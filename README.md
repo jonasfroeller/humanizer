@@ -44,7 +44,7 @@ Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikip
 
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 
-## 24 Patterns Detected (with Before/After Examples)
+## 25 Patterns Detected (with Before/After Examples)
 
 ### Content Patterns
 
@@ -95,6 +95,12 @@ Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikip
 | 23 | **Excessive hedging** | "could potentially possibly" | "may" |
 | 24 | **Generic conclusions** | "The future looks bright" | Specific plans or facts |
 
+### Punctuation Patterns
+
+| # | Pattern | Before | After |
+|---|---------|--------|-------|
+| 25 | **Primary Single Quotes** | `stated, 'This is a pattern.'` | `stated, "This is a pattern."` |
+
 ## Full Example
 
 **Before (AI-sounding):**
@@ -110,6 +116,7 @@ Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikip
 
 ## Version History
 
+- **2.2.0** - Added Pattern #25 (Primary Single Quotes)
 - **2.1.1** - Fixed pattern #18 example (curly quotes vs straight quotes)
 - **2.1.0** - Added before/after examples for all 24 patterns
 - **2.0.0** - Complete rewrite based on raw Wikipedia article content
